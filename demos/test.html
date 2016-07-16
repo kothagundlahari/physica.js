@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Test Demo
+	</title>
+	<script type="text/javascript" src="../utils/co_geom.js"></script>
+	<script type="text/javascript" src="../vectors/vector.js"></script>
+	<script type="text/javascript">
+		var vect=vector.create(20,30);
+		console.log(vect.getLength());
+		console.log(vect.getAngle());
+		console.log("after changing the angle");
+		console.log(vect.setAngle(2*Math.PI/3));
+		console.log(vect.getLength());
+		console.log(vect.getAngle());
+		console.log("Updated coordinates")
+		console.log(vect.getX());
+		console.log(vect.getY());
+	</script>
+</head>
+<body>
+
+</body>
+</html>
