@@ -1,0 +1,4 @@
+circle={};
+
+circle.create()= function(){}
+
